@@ -250,7 +250,7 @@ body{
     overflow: visible;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 #navigation-bar .navigation-links {
     display: flex;
@@ -4325,4 +4325,5 @@ Monitor
         width: 10px;
         height: 10px;
     }
+
 }
