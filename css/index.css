@@ -592,7 +592,7 @@ body{
     left: 25px;
     opacity: 0.6;
     transition: all .4s ease;
-    pointer-events: none;
+    pointer-events: auto;
     z-index: 1;
 }
 #navigation-bar img:hover{
@@ -4327,4 +4327,5 @@ Monitor
     }
 
 }
+
 
