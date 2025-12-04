@@ -4479,6 +4479,13 @@ Monitor
         border-radius: 6px;
         cursor: pointer;
     }
+    .team-card img.team-photo {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        object-position: center !important;
+        display: block !important;
+    }
     
     /* MOBILE */
     @media (max-width: 600px) {
@@ -4495,6 +4502,7 @@ Monitor
 
 
 }
+
 
 
 
