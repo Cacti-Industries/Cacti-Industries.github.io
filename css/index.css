@@ -4331,6 +4331,108 @@ Monitor
 
 
 
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.team-card {
+    width: 330px;
+    height: 460px;
+    position: relative;
+    background: #111;
+    border-radius: 26px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Curved color corner */
+.team-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130px;
+    height: 130px;
+    background: #8BD7FF;     /* light blue from image */
+    border-bottom-right-radius: 110px;
+    z-index: 3;
+}
+
+/* Vertical “CEO & Co-Founder” text */
+.team-role {
+    position: absolute;
+    top: 35px;
+    left: -45px;
+    transform: rotate(-90deg);
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    opacity: 0.75;
+    z-index: 4;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Bottom info overlay */
+.team-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(5px);
+    z-index: 3;
+}
+
+.team-name {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: poppins;
+    color: #fff;
+}
+
+.team-sub {
+    margin-top: 4px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+    font-family: poppins;
+}
+
+/* Mobile adjustments */
+@media (max-width: 550px) {
+    .team-card {
+        width: 90%;
+        height: 420px;
+    }
+
+    .team-role {
+        left: -38px;
+        font-size: 12px;
+    }
+
+    .team-info {
+        padding: 16px;
+    }
+
+    .team-name {
+        font-size: 20px;
+    }
+
+    .team-sub {
+        font-size: 13px;
+    }
+}
 
 
 
