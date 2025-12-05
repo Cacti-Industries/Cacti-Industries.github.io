@@ -113,9 +113,15 @@
 
 .team-buttons {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 12px;
 }
+
+.flip-btn {
+    margin-left: auto;
+}
+
+
 
 /* LINKEDIN BUTTON */
 .linkedin-btn {
