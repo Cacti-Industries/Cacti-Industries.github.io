@@ -90,9 +90,9 @@
     padding: 18px;
     background: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.45) 10%,
-        rgba(0, 0, 0, 0.55) 15%,
-        rgba(0, 0, 0, 0.65) 20%,
+        rgba(0, 0, 0, 0.55) 10%,
+        rgba(0, 0, 0, 0.65) 15%,
+        rgba(0, 0, 0, 0.75) 20%,
         rgba(0, 0, 0, 0.85) 25%,
         rgba(0, 0, 0, 0.90) 45%,
         rgba(0, 0, 0, 0.95) 65%,
