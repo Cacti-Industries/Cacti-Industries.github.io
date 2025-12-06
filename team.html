@@ -6,6 +6,8 @@
     <title>Cacti Industries — Team</title>
 
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/team.css">
+
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/cacti_logo_image_white_w_black_bkgrd.png">
@@ -13,6 +15,7 @@
 
 <body>
 
+<!-- NAVIGATION BAR -->
 <div id="navigation-bar">
     <a href="https://www.cacti-industries.com/">
         <img src="images/cacti_logo_image_white_w_trans_bkgrd_v2.png" 
@@ -24,13 +27,14 @@
         <li><a href="mailto:contact-us@cacti-industries.com">Contact Us</a></li>
     </ul>
 </div>
+
+<!-- MOBILE MENU -->
 <div class="menubar" id="menubar">
     <span class="first-span"></span>
     <span class="second-span"></span>
     <span class="third-span"></span>
 </div>
-<!--menubar-->
-<!-- Mobile Navigation Menu -->
+
 <div class="mobile-nav" id="mobile-nav">
     <div class="mobile-nav-content">
         <div class="mobile-nav-header">
@@ -41,79 +45,239 @@
             </div>
         </div>
         <ul class="mobile-nav-links">
-            <!-- NEW TEAM LINK IN MOBILE MENU -->
             <li><a href="team.html">Team</a></li>
             <li><a href="mailto:contact-us@cacti-industries.com">Contact Us</a></li>
-            <!-- <li><a href="https://scholar.google.com/citations?user=A0RqAUgAAAAJ&hl=en&oi=sra">Publications</a></li>
-            <li><a href="https://1drv.ms/w/c/573fe21775d93be1/EdEFwUW9jwpAnPF5gp_8Zo0BMBXjoU_v5qz4fY5dTWffcg?e=dsuyWW">Curriculum Vitae</a></li>
-            <li><a href="about.html">Bio</a></li> -->
         </ul>
     </div>
-</div>    
-
-<div style="padding-top:120px; text-align:center; color:white; font-family:poppins;">
-    <h1>Meet the Team</h1>
-    <p style="opacity:0.7;">The people behind Cacti Industries</p>
-
-    <div style="display:flex; flex-wrap:wrap; justify-content:center; margin-top:40px; gap:40px;">
-        
-        <!-- Example team member card -->
-        <div style="width:250px; background:#1d1d1d; padding:20px; border-radius:12px; text-align:center;">
-            <img src="images/Frank-Regal.jpg" 
-                 alt="Frank Regal" 
-                 style="width:120px; height:120px; border-radius:25%; margin-bottom:15px; object-fit:cover;">
-            <h3 style="color:white; margin-bottom:5px;">Frank Regal</h3>
-            <p style="color:rgba(255,255,255,0.7); font-size:14px;">CEO and Co-Founder</p>
-            <p style="color:rgba(255,255,255,0.6); font-size:13px; line-height:1.4;">
-                Frank is a Ph.D. candidate at UT Austin specializing in human–robot interaction. 
-                His research focuses on enabling intuitive, AR-based communication between people and 
-                robots operating in complex environments.
-            </p>
-        </div>
-        <div style="width:250px; background:#1d1d1d; padding:20px; border-radius:12px; text-align:center;">
-            <img src="images/Rohan-Polavaram.jpg" 
-                 alt="Rohan Polavaram" 
-                 style="width:120px; height:120px; border-radius:25%; margin-bottom:15px; object-fit:cover;">
-            <h3 style="color:white; margin-bottom:5px;">Rohan Polavaram</h3>
-            <p style="color:rgba(255,255,255,0.7); font-size:14px;">CTO and Co-Founder</p>
-            <p style="color:rgba(255,255,255,0.6); font-size:13px; line-height:1.4;">
-                Rohan holds a B.S. in Electrical and Computer Engineering from UT Austin. He is 
-                currently working on mixed-reality interfaces and human–robot teaming in challenging 
-                environments.
-            </p>
-        </div>
-        <div style="width:250px; background:#1d1d1d; padding:20px; border-radius:12px; text-align:center;">
-            <img src="images/Arjun-Nair.jpg" 
-                 alt="Arjun Nair" 
-                 style="width:120px; height:120px; border-radius:25%; margin-bottom:15px; object-fit:cover;">
-            <h3 style="color:white; margin-bottom:5px;">Arjun Nair</h3>
-            <p style="color:rgba(255,255,255,0.7); font-size:14px;">COO and Co-Founder</p>
-            <p style="color:rgba(255,255,255,0.6); font-size:13px; line-height:1.4;">
-                Arjun earned his B.S. in Electrical and Computer Engineering from UT Austin. He is now 
-                developing AR-driven control systems and scalable, intuitive multi-robot interaction 
-                frameworks.
-            </p>
-        </div>
-        <div style="width:250px; background:#1d1d1d; padding:20px; border-radius:12px; text-align:center;">
-            <img src="images/Ayan-Chaudhry.jpg" 
-                 alt="Ayan Chaudhry" 
-                 style="width:120px; height:120px; border-radius:25%; margin-bottom:15px; object-fit:cover;">
-            <h3 style="color:white; margin-bottom:5px;">Ayan Chaudhry</h3>
-            <p style="color:rgba(255,255,255,0.7); font-size:14px;">CAIO and Co-Founder</p>
-            <p style="color:rgba(255,255,255,0.6); font-size:13px; line-height:1.4;">
-                Ayan holds a B.S. in Electrical and Computer Engineering from UT Austin. He focuses on
-                creating HRI solutions that enhance collaborative autonomy in complex operational 
-                environments. 
-            </p>
-        </div>
-
-        <!-- Duplicate/add more as needed -->
-    </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/index.js"></script>
 </div>
 
+<!-- TEAM SECTION -->
+<div class="team-page">
+    <h1>Meet the Team</h1>
+    <p class="team-subtitle">The people behind Cacti Industries</p>
 
+    <div class="team-grid">
+
+        <!-- ======================= -->
+        <!-- FRANK REGAL -->
+        <!-- ======================= -->
+        <div class="team-card">
+            <div class="team-card-inner">
+
+                <div class="team-card-front">
+                    <img src="images/Frank-Regal.jpg" alt="Frank Regal" class="team-photo">
+
+                    <div class="team-info-overlay">
+                        <h3>Frank Regal</h3>
+                        <p>CEO & Co-Founder</p>
+
+                        <div class="team-buttons">
+                            <a href="https://www.linkedin.com/in/frankregal/" class="linkedin-btn">in</a>
+                            <button class="flip-btn">Bio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card-back">
+                    <div class="bio-scroll">
+                        <p>
+                            Frank is a fifth-year doctoral candidate at The University of Texas at Austin and is currently completing his dissertation in preparation for graduation. He has over three years of professional engineering experience, including roles as a Mechanical Design and Innovation Engineer at Dow Chemical, a Robotics Systems Engineer at NASA, and a Robotics Software Engineer at Argonne National Laboratory. In addition to his academic and industry experience, Frank currently serves as a Robotics & Software Architect Advisory Board Member for SmartCafe. His doctoral research, titled “Human-Robot Interactions via Deictic Commands in Unknown Environments Using Augmented Reality Displays,” focuses on advancing the field of HRI to enable natural and intuitive communication strategies for abstract information from everyday users to robotic systems operating in complex, real-world environments.
+                        </p>
+                    </div>
+                    <button class="flip-btn-back">Back</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ======================= -->
+        <!-- ROHAN POLAVARAM -->
+        <!-- ======================= -->
+        <div class="team-card">
+            <div class="team-card-inner">
+
+                <div class="team-card-front">
+                    <img src="images/Rohan-Polavaram.jpg" alt="Rohan Polavaram" class="team-photo">
+
+                    <div class="team-info-overlay">
+                        <h3>Rohan Polavaram</h3>
+                        <p>CTO & Co-Founder</p>
+
+                        <div class="team-buttons">
+                            <a href="https://www.linkedin.com/in/rohan-polavaram/" class="linkedin-btn">in</a>
+                            <button class="flip-btn">Bio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card-back">
+                    <div class="bio-scroll">
+                        <p>
+                            Rohan earned his B.S in Electrical and Computer Engineering from the University of Texas at Austin. He has two years of professional experience as a software engineer, including roles at CCC Intelligent Solutions and research with the Autonomous Guidance, Navigation, and Control Laboratory (AGNC). In Summer 2024, Rohan joined the Nuclear and Applied Robotics Group (NRG), where he is now a Robotics Research Engineer. His current work combines mixed-reality interaction with human–robot teaming to deliver reliable robotic performance in complex, human-occupied environments. 
+                        </p>
+                    </div>
+                    <button class="flip-btn-back">Back</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ======================= -->
+        <!-- ARJUN NAIR -->
+        <!-- ======================= -->
+        <div class="team-card">
+            <div class="team-card-inner">
+
+                <div class="team-card-front">
+                    <img src="images/Arjun-Nair.jpg" alt="Arjun Nair" class="team-photo">
+
+                    <div class="team-info-overlay">
+                        <h3>Arjun Nair</h3>
+                        <p>COO & Co-Founder</p>
+
+                        <div class="team-buttons">
+                            <a href="https://www.linkedin.com/in/arjun-nair-5a9537272/" class="linkedin-btn">in</a>
+                            <button class="flip-btn">Bio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card-back">
+                    <div class="bio-scroll">
+                        <p>
+                            Arjun earned his B.S. in Electrical and Computer Engineering from the University of Texas at Austin. He has one year of experience as a software developer intern at BizCloud Experts, where he also earned an AWS Cloud Practitioner certificate. In the summer of 2025, Arjun joined the Nuclear and Applied Robotics Group (NRG), where he now serves as a Staff Research Engineer. His current work focuses on advancing human–robot interaction through augmented reality by developing scalable, intuitive control systems for multi-agent robotic platforms and exploring how mixed reality can enhance collaborative autonomy in complex environments.
+                        </p>
+                    </div>
+                    <button class="flip-btn-back">Back</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ======================= -->
+        <!-- AYAN CHAUDHRY -->
+        <!-- ======================= -->
+        <div class="team-card">
+            <div class="team-card-inner">
+
+                <div class="team-card-front">
+                    <img src="images/Ayan-Chaudhry.jpg" alt="Ayan Chaudhry" class="team-photo">
+
+                    <div class="team-info-overlay">
+                        <h3>Ayan Chaudhry</h3>
+                        <p>CAIO & Co-Founder</p>
+
+                        <div class="team-buttons">
+                            <a href="https://www.linkedin.com/in/ayan-chaudhry-81a600255/" class="linkedin-btn">in</a>
+                            <button class="flip-btn">Bio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card-back">
+                    <div class="bio-scroll">
+                        <p>
+                            Ayan earned his B.S. in Electrical and Computer Engineering from the University of Texas at Austin. He has one year of experience as a software engineering intern at Harman International and eight months of experience as a quality and reliability engineering intern at AMD. Ayan joined the Nuclear and Applied Robotics Group (NRG) where he serves as a Research Engineering Scientist Associate. His current work involves developing solutions that advance human-robot interaction frameworks that enhance collaborative autonomy in complex environments. 
+                        </p>
+                    </div>
+                    <button class="flip-btn-back">Back</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- ======================= -->
+        <!-- DR. MITCH PRYOR -->
+        <!-- ======================= -->
+        <div class="team-card">
+            <div class="team-card-inner">
+
+                <div class="team-card-front">
+                    <img src="images/Dr.-Pryor.jpg" alt="Dr. Mitch Pryor" class="team-photo">
+
+                    <div class="team-info-overlay">
+                        <h3>Dr. Mitch Pryor</h3>
+                        <p>Scientific Advisor & Co-Founder</p>
+
+                        <div class="team-buttons">
+                            <a href="https://www.linkedin.com/in/mitch-pryor-b017586/" class="linkedin-btn">in</a>
+                            <button class="flip-btn">Bio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card-back">
+                    <div class="bio-scroll">
+                        <p>
+                            Mitch brings more than 27 years of engineering experience focused on robotics in 
+                            hazardous environments, including nuclear facilities, oil and gas, and defense 
+                            applications. He has taught university courses in robotic programming, mechanical
+                            design, and control systems, and currently serves as Principal Investigator of the
+                            Nuclear and Applied Robotics Group (NRG) at UT Austin. Under his leadership, NRG
+                            receives over $2M in annual funding and has successfully delivered numerous projects
+                            for the U.S. Department of Defense, U.S. Department of Energy, and a wide range of
+                            industry partners. Dr. Pryor is also a co-founder and previous advisor of Pike 
+                            Robotics, a company spun out of NRG. 
+                        </p>
+                    </div>
+                    <button class="flip-btn-back">Back</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- ======================= -->
+        <!-- JONATHAN SALFITY -->
+        <!-- ======================= -->
+        <div class="team-card">
+            <div class="team-card-inner">
+
+                <div class="team-card-front">
+                    <img src="images/Jonathan-Salfity.jpg" alt="Jonanthan Salfity" class="team-photo">
+
+                    <div class="team-info-overlay">
+                        <h3>Jonathan Salfity</h3>
+                        <p>Robotics and AI Advisor</p>
+
+                        <div class="team-buttons">
+                            <a href="https://www.linkedin.com/in/jsalfity/" class="linkedin-btn">in</a>
+                            <button class="flip-btn">Bio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card-back">
+                    <div class="bio-scroll">
+                        <p>
+                            Jonathan is a Mechanical Engineering Ph.D. candidate at UT Austin working on skill learning and control strategies for modular robotic systems. His academic background includes an M.S. and B.S. in Mechanical Engineering from UCLA, with a focus in systems, control, and robotics. He brings six years of professional experience as a roboticist developing mobile and manipulator robots, and is a co-founder and advisor to geCKo Materials, a startup commercializing bio-inspired adhesive technologies. His interests span robotics, control theory, reinforcement learning, and game-theoretic methods. 
+                        </p>
+                    </div>
+                    <button class="flip-btn-back">Back</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- SCRIPTS -->
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
+
+<!-- Card Flip Script -->
+<script>
+document.querySelectorAll(".flip-btn").forEach(btn => {
+    btn.addEventListener("click", e => {
+        e.target.closest(".team-card").classList.add("flipped");
+    });
+});
+
+document.querySelectorAll(".flip-btn-back").forEach(btn => {
+    btn.addEventListener("click", e => {
+        e.target.closest(".team-card").classList.remove("flipped");
+    });
+});
+</script>
 
 </body>
 </html>
