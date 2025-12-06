@@ -54,6 +54,10 @@
     transform: rotateY(180deg);
 }
 
+.team-card.flipped .team-card-front {
+    pointer-events: none;
+}
+
 /* ========================================= */
 /*                 CARD FRONT                */
 /* ========================================= */
